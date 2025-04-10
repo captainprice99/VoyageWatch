@@ -1,33 +1,48 @@
-# VoyageWatch
+# 🗺️ VoyageWatch - Sea of Thieves Event Tracker 🏴‍☠️
 
-A real-time community-driven map for Sea of Thieves events and sightings.
+> ⚡ Real-time community-driven map for tracking Sea of Thieves events, sightings, and treasures!
 
-## Features
+![VoyageWatch Banner](https://i.imgur.com/placeholder.png) *[Placeholder for cool banner image]*
 
-- Real-time event tracking (shipwrecks, Meg sightings, Ashen Lords, etc.)
-- Interactive map with custom Sea of Thieves styling
-- Different marker types for PvP and PvE events
-- Alliance mode for crew/faction-specific events
-- Heatmap visualization for event hotspots
-- WebSocket-based real-time updates
+## 🌟 Features
 
-## Tech Stack
+- 🗺️ Interactive map of the Sea of Thieves world
+- ⚡ Real-time event tracking
+  - 🚢 Shipwrecks
+  - 🦈 Megalodon sightings
+  - 👑 Ashen Lords
+  - 💀 Reaper's Bones sightings
+  - 🤝 Alliance formations
+  - 🏰 Forts of Fortune
+  - 💀 Forts of the Damned
+  - ⚓ Skeleton Fleets
+  - 👻 Ghost Fleets
+  - 🗺️ Treasure Maps
+  - 📦 Merchant Contracts
+  - 🏴 Emissary Flags
+- 🎯 Custom marker icons for different event types
+- 🔥 Heatmap visualization for event hotspots
+- 👥 Alliance mode for crew/faction-specific events
+- ⏱️ Event expiration and TTL management
+- 📊 Event reliability scoring system
+
+## 🛠️ Tech Stack
 
 ### Backend
-- Java 17
-- Spring Boot
-- WebSocket for real-time communication
-- MongoDB for event storage
-- Redis for caching and TTL management
+- ☕ Java 17
+- 🌱 Spring Boot
+- 🔌 WebSocket for real-time communication
+- 🍃 MongoDB for event storage
+- 🔴 Redis for caching and TTL management
 
 ### Frontend
-- React 18
-- TypeScript
-- Leaflet.js for map visualization
-- TailwindCSS for styling
-- Socket.IO client for real-time updates
+- ⚛️ React 18
+- 📘 TypeScript
+- 🍃 Leaflet.js for map visualization
+- 🎨 TailwindCSS for styling
+- 🔌 Socket.IO client for real-time updates
 
-## Project Structure
+## 🏗️ Project Structure
 
 ```
 voyagewatch/
@@ -37,31 +52,67 @@ voyagewatch/
 └── docs/             # Documentation
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
-- Java 17+
-- Node.js 18+
-- MongoDB
-- Redis
-- Docker 
+- ☕ Java 17+
+- 📦 Node.js 18+
+- 🍃 MongoDB
+- 🔴 Redis
+- 🐳 Docker (optional)
 
 ### Development Setup
 
 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/voyagewatch.git
+cd voyagewatch
+```
+
 2. Start MongoDB and Redis
+```bash
+# Using Docker
+docker-compose up -d mongodb redis
+```
+
 3. Run the backend:
-   ```bash
-   cd backend
-   ./mvnw spring-boot:run
-   ```
+```bash
+cd backend
+./mvnw spring-boot:run
+```
+
 4. Run the frontend:
-   ```bash
-   cd frontend
-   npm install
-   npm start
-   ```
+```bash
+cd frontend
+npm install
+npm start
+```
 
-## License
+### 🐳 Docker Deployment
 
-MIT License
+Run the entire stack with Docker Compose:
+```bash
+docker-compose up --build
+```
+
+Access the application at:
+- Frontend: http://localhost:3000
+- Backend API: http://localhost:8080
+
+## 🤝 Contributing
+
+We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Sea of Thieves community for inspiration
+- All contributors who help make this project better
+- Rare Ltd. for creating such an amazing game
+
+---
+
+Made with ❤️ by the VoyageWatch team
