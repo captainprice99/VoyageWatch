@@ -1,0 +1,17 @@
+package com.voyagewatch.model;
+
+public enum EventType {
+    SHIPWRECK,
+    MEG_SIGHTING,
+    ASHEN_LORD,
+    REAPER_SIGHTING,
+    ALLIANCE,
+    FORT_OF_FORTUNE,
+    FORT_OF_THE_DAMNED,
+    SKELETON_FLEET,
+    GHOST_FLEET,
+    TREASURE_MAP,
+    MERCHANT_CONTRACT,
+    EMISSARY_FLAG,
+    OTHER
+} 
