@@ -2,8 +2,6 @@
 
 > ⚡ Real-time community-driven map for tracking Sea of Thieves events, sightings, and treasures!
 
-![VoyageWatch Banner](https://i.imgur.com/placeholder.png) *[Placeholder for cool banner image]*
-
 ## 🌟 Features
 
 - 🗺️ Interactive map of the Sea of Thieves world
@@ -99,10 +97,6 @@ Access the application at:
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:8080
 
-## 🤝 Contributing
-
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -115,4 +109,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ by the VoyageWatch team
